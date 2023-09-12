@@ -20,8 +20,10 @@ Clone or download this repository to your local machine.
 Make sure you have Python 3.x installed on your computer.
 
 Install the required libraries using pip:
-'''console
+'''
+
 pip install python-docx PyPDF2 rapidfuzz
+
 '''
 
 Run the plagiarism_checker.py script.
