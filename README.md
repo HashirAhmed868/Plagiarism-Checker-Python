@@ -20,11 +20,8 @@ Clone or download this repository to your local machine.
 Make sure you have Python 3.x installed on your computer.
 
 Install the required libraries using pip:
-'''
 
 pip install python-docx PyPDF2 rapidfuzz
-
-'''
 
 Run the plagiarism_checker.py script.
 
@@ -40,11 +37,9 @@ PDF files (.pdf): PDF files are also supported. The script extracts text from PD
 ### Usage
 To use the Plagiarism Checker, provide the names of the two files you want to compare, separated by a comma when prompted.
 For example:
-'''  
 
 Enter Names of Two Files (Comma Separated): file1.txt, file2.txt
 
-'''
 The script will then analyze the content of the specified files and provide a similarity percentage along with a plagiarism alert if the similarity is above a certain threshold (default is 70%).
 
 ### Plagiarism Detection
